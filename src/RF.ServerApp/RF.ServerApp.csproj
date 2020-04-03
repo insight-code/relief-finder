@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-RF.ServerApp-4BB3AC4B-AC5E-4EC6-B584-5DA2A64B2E80</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureADB2C.UI" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RF.Core\RF.Core.csproj" />
+    <ProjectReference Include="..\RF.Handlers\RF.Handlers.csproj" />
+    <ProjectReference Include="..\RF.Infrastructure\RF.Infrastructure.csproj" />
+    <ProjectReference Include="..\RF.Shared\RF.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
