@@ -1,2 +1,3 @@
 # relief-finder
-Covid-19 Relief Finder
+
+COVID-19 Relief Finder
