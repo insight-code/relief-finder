@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RF.Core\RF.Core.csproj" />
+    <ProjectReference Include="..\RF.Shared\RF.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
