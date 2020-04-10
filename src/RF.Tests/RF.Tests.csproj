@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -27,6 +27,14 @@
     <ProjectReference Include="..\RF.Infrastructure\RF.Infrastructure.csproj" />
     <ProjectReference Include="..\RF.ServerApp\RF.ServerApp.csproj" />
     <ProjectReference Include="..\RF.Shared\RF.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\" />
+    <Folder Include="Handlers\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Shared\" />
+    <Folder Include="ServerApp\" />
   </ItemGroup>
 
 </Project>
